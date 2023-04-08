@@ -6,8 +6,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="@drawable/bg"
-    tools:context=".MainActivity">
+    tools:context=".AddPlayers"
+    android:background="@drawable/bg">
 
     <TextView
         android:layout_width="wrap_content"
