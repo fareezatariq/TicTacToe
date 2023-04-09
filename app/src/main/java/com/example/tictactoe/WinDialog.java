@@ -11,11 +11,11 @@ import androidx.annotation.NonNull;
 
 public class WinDialog extends Dialog {
     private final String message;
-    private final MainActivity mainActivity;
-public WinDialog(@NonNull Context context, String message, MainActivity mainActivity){
+    private final gameMechanics GameMechanics;
+public WinDialog(@NonNull Context context, String message, gameMechanics GameMechanics){
     super(context);
     this.message=message;
-    this.mainActivity=mainActivity;
+    this.GameMechanics=GameMechanics;
 
 }
 
@@ -32,7 +32,7 @@ public WinDialog(@NonNull Context context, String message, MainActivity mainActi
         startAgainBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mainActivity.reStartMatch();
+                GameMechanics.reStartMatch();
                 dismiss();
             }
         });
