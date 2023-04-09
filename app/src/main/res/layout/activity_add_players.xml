@@ -29,7 +29,6 @@
             android:layout_width="30dp"
             android:layout_marginStart="20dp"
             android:layout_height="30dp"
-            android:contentDescription="@string/non"
             android:src="@drawable/cross_icon"
             android:adjustViewBounds="true"/>
         <EditText
@@ -39,6 +38,7 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:inputType="text"
+            android:maxLines="1"
             android:hint="@string/player_one"
             android:textColorHint="@color/light_blue"
             android:textColor="@color/white"
@@ -58,7 +58,6 @@
         <ImageView
             android:layout_width="30dp"
             android:layout_marginStart="20dp"
-            android:contentDescription="@string/non"
             android:layout_height="30dp"
             android:src="@drawable/zero_icon"
             android:adjustViewBounds="true"/>
@@ -67,6 +66,7 @@
             android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp"
             android:inputType="text"
+            android:maxLines="1"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:hint="@string/player_two"
