@@ -4,7 +4,16 @@
     <string name="player_two">Player Two</string>
     <string name="player_one">Player One</string>
     <string name="enter_player_names">Enter Player Names</string>
-    <string name="null">null</string>
-    <string name="null">null</string>
     <string name="non">Null</string>
+    <string name="player_one_icon">Player One Icon</string>
+    <string name="player_two_icon">Player Two Icon</string>
+    <string name="box1">box1</string>
+    <string name="box2">box2</string>
+    <string name="box3">box3</string>
+    <string name="box4">box4</string>
+    <string name="box5">box5</string>
+    <string name="box6">box6</string>
+    <string name="box7">box7</string>
+    <string name="box_8">box8</string>
+    <string name="box9">box9</string>
 </resources>
