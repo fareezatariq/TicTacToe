@@ -26,6 +26,7 @@ public WinDialog(@NonNull Context context, String message, gameMechanics GameMec
 
         final TextView messageTxt= findViewById(R.id.messageText);
         final Button startAgainBtn= findViewById(R.id.startAgain);
+        final Button newGame= findViewById(R.id.newGame);
 
         messageTxt.setText(message);
 
@@ -34,6 +35,12 @@ public WinDialog(@NonNull Context context, String message, gameMechanics GameMec
             public void onClick(View v) {
                 GameMechanics.reStartMatch();
                 dismiss();
+            }
+        });
+        newGame.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
             }
         });
     }

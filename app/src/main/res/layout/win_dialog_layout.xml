@@ -7,7 +7,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/dark_blue"
+        android:background="@drawable/win_bg"
         android:orientation="vertical">
         <TextView
             android:id="@+id/messageText"
@@ -18,7 +18,7 @@
             android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp"
             android:text="Message Here"
-            android:textColor="#FFFFFF"
+            android:textColor="@color/blue"
             android:textSize="18sp"
             android:textStyle="bold"/>
         <androidx.appcompat.widget.AppCompatButton
@@ -27,7 +27,17 @@
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:background="@drawable/round_back_blue1000"
-            android:textColor="#FFFFFF"
+            android:textColor="@color/blue"
             android:text="Start Again"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/newGame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/round_back_blue1000"
+            android:textColor="@color/blue"
+            android:text="New Game"/>
     </LinearLayout>
 </RelativeLayout>

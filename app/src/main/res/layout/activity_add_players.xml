@@ -7,14 +7,16 @@
     android:orientation="vertical"
     android:gravity="center"
     tools:context=".AddPlayers"
-    android:background="@drawable/bg">
+    android:background="@drawable/bgr">
 
     <TextView
+        android:id="@+id/enter_player"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#FFFFFF"
+        android:textColor="#fab7a7"
         android:text="@string/enter_player_names"
-        android:textSize="30sp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textSize="35sp"
         android:textStyle="bold"/>
     <LinearLayout
         android:gravity="center_vertical"
@@ -22,6 +24,7 @@
         android:layout_height="50dp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
+        android:elevation="8dp"
         android:background="@color/dark_blue"
         android:layout_marginTop="50dp"
         android:orientation="horizontal">
@@ -41,7 +44,7 @@
             android:maxLines="1"
             android:hint="@string/player_one"
             android:textColorHint="@color/light_blue"
-            android:textColor="@color/white"
+            android:textColor="@color/light_blue"
             android:background="@color/dark_blue"
             />
     </LinearLayout>
@@ -54,6 +57,7 @@
         android:layout_marginEnd="20dp"
         android:background="@color/dark_blue"
         android:layout_marginTop="50dp"
+        android:elevation="8dp"
         android:orientation="horizontal">
         <ImageView
             android:layout_width="30dp"
@@ -71,7 +75,7 @@
             android:layout_height="50dp"
             android:hint="@string/player_two"
             android:textColorHint="@color/light_blue"
-            android:textColor="@color/white"
+            android:textColor="@color/light_blue"
             android:background="@color/dark_blue"
             />
     </LinearLayout>
@@ -79,11 +83,13 @@
         android:id="@+id/StartGameBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:elevation="10dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="20dp"
         android:text="@string/start_game"
-        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textColor="@color/blue"
         android:background='@drawable/round_back_blue1000'/>
 
 </LinearLayout>

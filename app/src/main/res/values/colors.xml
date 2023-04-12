@@ -7,9 +7,10 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="dark_blue">#150726</color>
-    <color name="divider_blue">#191826</color>
-    <color name="holo_blue">#140946</color>
-    <color name="light_blue">#90FFFFFF</color>
+    <color name="dark_blue">#c1afc3</color>
+    <color name="blue">#5d6c9c</color>
+    <color name="divider_blue">#49557A</color>
+    <color name="holo_blue">#fbb3a4</color>
+    <color name="light_blue">#2a3147</color>
     <color name="purple">#6648C3</color>
 </resources>
