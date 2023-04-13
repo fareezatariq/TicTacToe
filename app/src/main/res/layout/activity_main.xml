@@ -37,7 +37,7 @@
             <View
                 android:layout_width="match_parent"
                 android:layout_height="2dp"
-                android:background="@color/divider_blue"
+                android:background="@color/blue"
                 tools:ignore="VisualLintBounds" />
             <ImageView
                 android:layout_width="40dp"
@@ -75,7 +75,7 @@
             <View
                 android:layout_width="match_parent"
                 android:layout_height="2dp"
-                android:background="@color/divider_blue"
+                android:background="@color/blue"
                 tools:ignore="VisualLintBounds" />
             <ImageView
                 android:layout_width="40dp"

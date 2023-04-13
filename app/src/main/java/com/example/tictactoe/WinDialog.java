@@ -1,7 +1,10 @@
 package com.example.tictactoe;
 
+import static androidx.core.content.ContextCompat.startActivity;
+
 import android.app.Dialog;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -40,7 +43,9 @@ public WinDialog(@NonNull Context context, String message, gameMechanics GameMec
         newGame.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                dismiss();
+                Intent intent = new Intent(getContext(), AddPlayers.class);
+                startActivity(getContext(), intent, null);
             }
         });
     }
